@@ -12,10 +12,9 @@ import Button from '@mui/material/Button'
 import Tooltip from '@mui/material/Tooltip'
 import MenuItem from '@mui/material/MenuItem'
 import AdbIcon from '@mui/icons-material/Adb'
-// import { imageListClasses } from '@mui/material'
 import Logo from './Logo'
 
-const pages = ['Products', 'Pricing', 'Blog']
+const pages = ['Home', 'Blog', 'About', 'Contact']
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout']
 
 function ResponsiveAppBar() {
@@ -42,7 +41,12 @@ function ResponsiveAppBar() {
     }
 
     return (
-        <AppBar position="static">
+        <AppBar
+            position="static"
+            sx={{
+                bacgroundColor: 'white',
+            }}
+        >
             <Container maxWidth="lg">
                 <Toolbar disableGutters>
                     <Logo />
@@ -67,12 +71,12 @@ function ResponsiveAppBar() {
                             anchorEl={anchorElNav}
                             anchorOrigin={{
                                 vertical: 'bottom',
-                                horizontal: 'left',
+                                horizontal: 'right',
                             }}
                             keepMounted
                             transformOrigin={{
                                 vertical: 'top',
-                                horizontal: 'left',
+                                horizontal: 'right',
                             }}
                             open={Boolean(anchorElNav)}
                             onClose={handleCloseNavMenu}
@@ -116,7 +120,12 @@ function ResponsiveAppBar() {
                     <Box
                         sx={{
                             flexGrow: 1,
-                            display: { xs: 'none', md: 'flex' },
+                            display: {
+                                xs: 'none',
+                                md: 'flex',
+                                justifyContent: 'flex-end',
+                                marginLeft: '10px',
+                            },
                         }}
                     >
                         {pages.map((page) => (
@@ -138,7 +147,7 @@ function ResponsiveAppBar() {
                             >
                                 <Avatar
                                     alt="Remy Sharp"
-                                    src="/static/images/avatar/2.jpg"
+                                    src="/assets/user-section.png"
                                 />
                             </IconButton>
                         </Tooltip>
