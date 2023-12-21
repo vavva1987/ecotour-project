@@ -132,7 +132,12 @@ function ResponsiveAppBar() {
                             <Button
                                 key={page}
                                 onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
+                                sx={{
+                                    my: 2,
+                                    color: 'black',
+                                    display: 'block',
+                                    fontFamily: 'Raleway',
+                                }}
                             >
                                 {page}
                             </Button>
@@ -143,11 +148,12 @@ function ResponsiveAppBar() {
                         <Tooltip title="Open settings">
                             <IconButton
                                 onClick={handleOpenUserMenu}
-                                sx={{ p: 0 }}
+                                sx={{ p: 0, marginLeft: '10px' }}
                             >
+                                <img src="../assets/user-section.png" alt="" />
                                 <Avatar
                                     alt="Remy Sharp"
-                                    src="/assets/user-section.png"
+                                    src="../assets/user-section.png"
                                 />
                             </IconButton>
                         </Tooltip>
