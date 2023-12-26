@@ -1,3 +1,4 @@
+import HeaderBackground from 'components/HeaderBackground/HeaderBackground'
 import ResponsiveAppBar from '../components/appbar/AppBar'
 import './Header.css'
 
@@ -7,6 +8,7 @@ const Header = (props: Props) => {
     return (
         <>
             <ResponsiveAppBar />
+            <HeaderBackground />
         </>
     )
 }
