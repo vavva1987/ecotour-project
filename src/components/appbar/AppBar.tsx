@@ -7,13 +7,13 @@ import Typography from '@mui/material/Typography'
 import Menu from '@mui/material/Menu'
 import MenuIcon from '@mui/icons-material/Menu'
 import Container from '@mui/material/Container'
-import Avatar from '@mui/material/Avatar'
+import Avatar from '../avatar/Avatar'
 import Button from '@mui/material/Button'
 import Tooltip from '@mui/material/Tooltip'
 import MenuItem from '@mui/material/MenuItem'
 import AdbIcon from '@mui/icons-material/Adb'
 import Logo from '../logo/Logo'
-
+import '../../layout/Header.css'
 const pages = ['Home', 'Blog', 'About', 'Contact']
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout']
 
@@ -41,12 +41,7 @@ function ResponsiveAppBar() {
     }
 
     return (
-        <AppBar
-            position="static"
-            sx={{
-                bacgroundColor: 'white',
-            }}
-        >
+        <AppBar position="static" className="header">
             <Container maxWidth="lg">
                 <Toolbar disableGutters>
                     <Logo />
@@ -108,7 +103,7 @@ function ResponsiveAppBar() {
                             mr: 2,
                             display: { xs: 'flex', md: 'none' },
                             flexGrow: 1,
-                            fontFamily: 'monospace',
+                            fontFamily: 'Raleway',
                             fontWeight: 700,
                             letterSpacing: '.3rem',
                             color: 'inherit',
@@ -137,6 +132,11 @@ function ResponsiveAppBar() {
                                     color: 'black',
                                     display: 'block',
                                     fontFamily: 'Raleway',
+                                    fontWeight: '700',
+                                    ':hover': {
+                                        backgroundColor: '#8ac92a',
+                                        color: '#ffffff',
+                                    },
                                 }}
                             >
                                 {page}
@@ -150,15 +150,11 @@ function ResponsiveAppBar() {
                                 onClick={handleOpenUserMenu}
                                 sx={{ p: 0, marginLeft: '10px' }}
                             >
-                                <img src="../assets/user-section.png" alt="" />
-                                <Avatar
-                                    alt="Remy Sharp"
-                                    src="../assets/user-section.png"
-                                />
+                                <Avatar />
                             </IconButton>
                         </Tooltip>
                         <Menu
-                            sx={{ mt: '45px' }}
+                            sx={{ mt: '45px', width: '300px', height: '300px' }}
                             id="menu-appbar"
                             anchorEl={anchorElUser}
                             anchorOrigin={{
