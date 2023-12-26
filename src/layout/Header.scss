@@ -10,4 +10,20 @@
 .header-background {
     width: 1350px;
     height: 650px;
+
+    @media (max-width: 1440px) {
+        width: 1440px;
+    }
+    @media (max-width: 1024px) {
+        width: 1024px;
+    }
+    @media (max-width: 768px) {
+        width: 768px;
+    }
+    @media (max-width: 425px) {
+        width: 425px;
+    }
+    @media (max-width: 375px) {
+        width: 375px;
+    }
 }
