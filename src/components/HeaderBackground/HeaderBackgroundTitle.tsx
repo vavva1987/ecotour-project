@@ -27,6 +27,7 @@ const HeaderBackgroundTitle = (props: Props) => {
                     aliqua.
                 </p>
                 <Button
+                    className="header-btn"
                     sx={{
                         width: '143px',
                         height: '44px',
