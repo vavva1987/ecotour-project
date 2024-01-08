@@ -8,20 +8,18 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.header {
+body .header {
   background-color: #ffffff;
   border-bottom: 3px solid #8ac92a;
 }
-
-.header-background {
+body .header-background {
   max-width: 1350px;
   height: 650px;
   margin: 0;
   padding: 0;
   display: flex;
 }
-.header-background .header-background-img {
+body .header-background .header-background-img {
   width: 1440px;
   height: 100%;
   background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8)), url(../assets/background-img.jpg);
@@ -34,7 +32,7 @@ body {
   justify-content: center;
 }
 @media (max-width: 1440px) {
-  .header-background .header-background-img {
+  body .header-background .header-background-img {
     width: 1440px;
     height: 650px;
     margin-left: auto;
@@ -42,29 +40,73 @@ body {
   }
 }
 @media (max-width: 1024px) {
-  .header-background .header-background-img {
+  body .header-background .header-background-img {
     width: 1024px;
   }
 }
 @media (max-width: 768px) {
-  .header-background .header-background-img {
+  body .header-background .header-background-img {
     width: 768px;
   }
 }
 @media (max-width: 425px) {
-  .header-background .header-background-img {
+  body .header-background .header-background-img {
     width: 425px;
   }
 }
 @media (max-width: 375px) {
-  .header-background .header-background-img {
+  body .header-background .header-background-img {
     width: 375px;
   }
 }
-.header-background .header-background-title h1 {
+body .header-background .header-background-title h1 {
   font-family: Raleway;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
+}
+body .header-background .header-background-title p {
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140.625%;
+}
+body .header-background .header-background-title .header-btn {
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.625%;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+body .main-title h2 {
+  color: var(--Primary-400, #8ac92a);
+  font-family: Raleway;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+body .main-title .p1 {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140.625%;
+  text-transform: uppercase;
+}
+body .main-title .p1 span {
+  color: var(--Primary-400, #8ac92a);
+}
+body .main-title p {
+  color: var(--Mono-500, var(--Mono---500, #808080));
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140.625%;
 }/*# sourceMappingURL=Header.css.map */
