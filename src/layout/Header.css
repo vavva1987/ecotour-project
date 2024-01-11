@@ -81,32 +81,4 @@ body .header-background .header-background-title .header-btn {
   line-height: 140.625%;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-}
-body .main-title h2 {
-  color: var(--Primary-400, #8ac92a);
-  font-family: Raleway;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 100%;
-}
-body .main-title .p1 {
-  color: #000000;
-  font-family: Raleway;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 140.625%;
-  text-transform: uppercase;
-}
-body .main-title .p1 span {
-  color: var(--Primary-400, #8ac92a);
-}
-body .main-title p {
-  color: var(--Mono-500, var(--Mono---500, #808080));
-  font-family: Raleway;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 140.625%;
 }/*# sourceMappingURL=Header.css.map */
