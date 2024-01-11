@@ -11,27 +11,27 @@ export const productsArray: Products[] = [
         title: 'Recycling',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
-        images: '../assets/icon.png',
+        images: '/images/icon.png',
     },
     {
         id: 2,
         title: 'Eco System',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...',
-        images: '../../assets/icon.png',
+        images: '/images/icon.png',
     },
     {
         id: 3,
         title: 'Water refine',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
-        images: '../assets/icon.png',
+        images: '/images/icon.png',
     },
     {
         id: 4,
         title: 'Tourism',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...',
-        images: '../assets/icon.png',
+        images: '/images/icon.png',
     },
 ]
