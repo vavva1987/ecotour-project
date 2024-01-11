@@ -1,5 +1,8 @@
 import { Container, Grid, Typography } from '@mui/material'
 import '../../layout/Header.css'
+import { productsArray } from 'utils/productsArray'
+import ProductList from 'components/ProductsList/ProductList'
+import ProductListItem from 'components/ProductsList/ProductListItem'
 
 type Props = {}
 
@@ -14,43 +17,17 @@ const MainSmContainer = (props: Props) => {
                 justifyContent: 'center',
             }}
         >
-            <Typography
-                className="main-title"
-                sx={{ display: 'block', textAlign: 'center' }}
-            >
-                <h2>Our Mission</h2>
-                <p className="p1">
-                    what are we <span>working</span> for
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore{' '}
-                </p>
-                <Grid item xs={4}>
-                    <div>
-                        <a href="">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore{' '}
-                        </a>
-                    </div>
-                    <div>
-                        <a href="">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore{' '}
-                        </a>
-                    </div>
-                    <div>
-                        <a href="">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore{' '}
-                        </a>
-                    </div>
-                    <div>
-                        <a href="">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore{' '}
-                        </a>
-                    </div>
+            <Typography sx={{ display: 'block', textAlign: 'center' }}>
+                <ProductListItem />
+                <Grid container>
+                    {productsArray.map(({ id, title, description, images }) => (
+                        <ProductList
+                            id={id}
+                            title={title}
+                            description={description}
+                            images={images}
+                        />
+                    ))}
                 </Grid>
             </Typography>
         </Container>
