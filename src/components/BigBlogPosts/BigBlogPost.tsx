@@ -7,3 +7,5 @@ const BigBlogPost = (props: Props) => {
 }
 
 export default BigBlogPost
+
+// "homepage": ".",
