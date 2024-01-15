@@ -1,5 +1,4 @@
 import { Container, Grid, Typography } from '@mui/material'
-import '../../layout/Header.css'
 import { productsArray } from 'utils/productsArray'
 import ProductList from 'components/ProductsList/ProductList'
 import ProductListItem from 'components/ProductsList/ProductListItem'
@@ -10,7 +9,6 @@ const MainSmContainer = (props: Props) => {
     return (
         <Container
             maxWidth="md"
-            className="main-sm-container"
             sx={{
                 display: 'flex',
                 alignItems: 'center',

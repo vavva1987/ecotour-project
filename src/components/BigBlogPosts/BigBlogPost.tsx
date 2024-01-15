@@ -1,5 +1,5 @@
 import { Button, Container, Grid } from '@mui/material'
-import './BigBlogPost.css'
+import './BigBlogPost.scss'
 
 type Props = {}
 
@@ -24,7 +24,7 @@ const BigBlogPost = (props: Props) => {
                 </div>
             </Container>
             <Grid className="blog-post-content">
-                <Grid item xs={12} sm={6} md={4} sx={{ display: 'flex' }}>
+                <Grid item xs={12} sm={6} md={4}>
                     <div className="blog-post-img">
                         <img src="../images/img(1).png" alt="" />
                     </div>

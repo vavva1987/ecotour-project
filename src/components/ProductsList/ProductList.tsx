@@ -1,5 +1,5 @@
 import { Card, CardContent } from '@mui/material'
-import './ProductList.css'
+import './ProductList.scss'
 
 type Props = {
     id: number
