@@ -11,16 +11,20 @@ const BigBlogPost = (props: Props) => {
                 maxWidth="md"
                 sx={{ textAlign: 'center' }}
             >
-                <h2>
-                    Latest <span>posts</span>
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore{' '}
-                </p>
+                <div>
+                    <h2>
+                        Latest <span>posts</span>
+                    </h2>
+                </div>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore{' '}
+                    </p>
+                </div>
             </Container>
             <Grid className="blog-post-content">
-                <Grid xs={12} sm={6} md={4} sx={{ display: 'flex' }}>
+                <Grid item xs={12} sm={6} md={4} sx={{ display: 'flex' }}>
                     <div className="blog-post-img">
                         <img src="../images/img(1).png" alt="" />
                     </div>
