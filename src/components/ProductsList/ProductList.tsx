@@ -10,13 +10,17 @@ type Props = {
 
 const ProductList = ({ id, title, description, images }: Props) => {
     return (
-        <Card>
+        <Card key={id}>
             <CardContent className="product-list" sx={{ variant: 'outlined' }}>
                 <div className="product-img">
                     <img src={images} alt={title} />
                 </div>
-                <h2 className="product-title">{title}</h2>
-                <p className="product-description">{description}</p>
+                <div>
+                    <h2 className="product-title">{title}</h2>
+                </div>
+                <div>
+                    <p className="product-description">{description}</p>
+                </div>
             </CardContent>
         </Card>
     )
