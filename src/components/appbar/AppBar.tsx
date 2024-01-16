@@ -13,7 +13,8 @@ import Tooltip from '@mui/material/Tooltip'
 import MenuItem from '@mui/material/MenuItem'
 import AdbIcon from '@mui/icons-material/Adb'
 import Logo from '../logo/Logo'
-import '../../layout/Header.css'
+import '../../layout/Header.scss'
+
 const pages = ['Home', 'Blog', 'About', 'Contact']
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout']
 

@@ -1,5 +1,5 @@
 import { Button, Container } from '@mui/material'
-import '../../layout/Header.css'
+import '../../layout/Header.scss'
 import BrandLogo from 'components/BrandLogo/BrandLogo'
 
 type Props = {}

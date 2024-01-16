@@ -1,5 +1,5 @@
 import HeaderBackgroundTitle from './HeaderBackgroundTitle'
-import '../../layout/Header.css'
+import '../../layout/Header.scss'
 
 type Props = {}
 

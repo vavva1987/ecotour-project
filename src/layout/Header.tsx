@@ -1,6 +1,6 @@
 import HeaderBackground from 'components/HeaderBackground/HeaderBackground'
 import ResponsiveAppBar from '../components/appbar/AppBar'
-import './Header.css'
+import './Header.scss'
 
 type Props = {}
 
