@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  padding: 0;
+}
+body .header {
+  background-color: #ffffff;
+  border-bottom: 3px solid #8ac92a;
+}
+body .header-background {
+  max-width: 1350px;
+  height: 650px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+body .header-background .header-background-img {
+  width: 1440px;
+  height: 100%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8)), url(../assets/background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1440px) {
+  body .header-background .header-background-img {
+    width: 1440px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1024px) {
+  body .header-background .header-background-img {
+    width: 1024px;
+  }
+}
+@media (max-width: 768px) {
+  body .header-background .header-background-img {
+    width: 768px;
+  }
+}
+@media (max-width: 425px) {
+  body .header-background .header-background-img {
+    width: 425px;
+  }
+}
+@media (max-width: 375px) {
+  body .header-background .header-background-img {
+    width: 375px;
+  }
+}
+body .header-background .header-background-title h1 {
+  font-family: Raleway;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+body .header-background .header-background-title p {
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140.625%;
+}
+body .header-background .header-background-title .header-btn {
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.625%;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=Header.css.map */
