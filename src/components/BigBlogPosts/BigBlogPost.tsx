@@ -23,12 +23,10 @@ const BigBlogPost = (props: Props) => {
                     </p>
                 </div>
             </Container>
-            <div className="blog-post-content">
-                {/* <Grid className="blog-post-content"> */}
-                {/* <Grid item xs={12} sm={6} md={4} sx={{ display: 'flex' }}> */}
-                <div className="blog-post-img">
+            <Container maxWidth="lg" className="blog-post-content">
+                <Container maxWidth="md" className="blog-post-img">
                     <img src="../images/img(1).png" alt="" />
-                </div>
+                </Container>
                 <Container
                     maxWidth="xs"
                     className="blog-post-txt"
@@ -54,9 +52,7 @@ const BigBlogPost = (props: Props) => {
                         Read more
                     </Button>
                 </Container>
-                {/* </Grid> */}
-                {/* </Grid> */}
-            </div>
+            </Container>
         </Container>
     )
 }

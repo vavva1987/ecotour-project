@@ -23,9 +23,19 @@
 .blog-post-content {
     width: auto;
     height: 401px;
+    display: flex;
 
     .blog-post-img {
         width: 753px;
+        img {
+            width: 753px;
+            height: 401px;
+            @media (max-width: 1024px) {
+                margin-right: -24px;
+                height: 401px;
+                width: 570px;
+            }
+        }
     }
     .blog-post-txt {
         background-color: #8ac92a;
