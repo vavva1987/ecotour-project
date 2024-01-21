@@ -5,7 +5,12 @@ type Props = {}
 
 const BigBlogPost = (props: Props) => {
     return (
-        <Container maxWidth="lg">
+        <Container
+            maxWidth="lg"
+            sx={{
+                marginBottom: '30px',
+            }}
+        >
             <Container
                 className="blog-post-title"
                 maxWidth="md"
