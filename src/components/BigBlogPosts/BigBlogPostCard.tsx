@@ -20,7 +20,7 @@ const BigBlogPostCard = (props: Props) => {
                 sx={{ display: 'flex' }}
             >
                 <Container
-                    maxWidth="xl"
+                    maxWidth="md"
                     className="card-1"
                     sx={{ display: 'flex', alignItems: 'center' }}
                 >

@@ -1,14 +1,15 @@
 import HeaderBackgroundTitle from './HeaderBackgroundTitle'
 import '../../layout/Header.scss'
+import { Container } from '@mui/material'
 
 type Props = {}
 
 const HeaderBackground = (props: Props) => {
     return (
         <div className="header-background">
-            <div className="header-background-img">
+            <Container maxWidth="xl" className="header-background-img">
                 <HeaderBackgroundTitle />
-            </div>
+            </Container>
         </div>
     )
 }

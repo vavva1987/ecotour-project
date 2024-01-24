@@ -7,7 +7,7 @@ type Props = {}
 const HeaderBackgroundTitle = (props: Props) => {
     return (
         <Container
-            maxWidth="lg"
+            // maxWidth="lg"
             className="header-background-title"
             sx={{
                 display: 'block',
