@@ -1,4 +1,4 @@
-import { Button, Container, Typography } from '@mui/material'
+import { Button, Container } from '@mui/material'
 
 type Props = {}
 
@@ -13,11 +13,10 @@ const BigBlogPostCard = (props: Props) => {
                 justifyContent: 'center',
             }}
         >
-            <Typography
-                variant="h4"
-                component="h1"
+            <Container
+                maxWidth="md"
+                sx={{ display: 'flex', justifyContent: 'center' }}
                 className="big-blog-post-card"
-                sx={{ display: 'flex' }}
             >
                 <Container
                     maxWidth="md"
@@ -39,11 +38,13 @@ const BigBlogPostCard = (props: Props) => {
                         </p>
                         <Button
                             sx={{
+                                border: '1px solid black',
                                 backgroundColor: '#8AC92A',
                                 color: '#ffffff',
                                 ':hover': {
                                     color: 'black',
                                     backgroundColor: '#ffffff',
+                                    border: '1px solid black',
                                 },
                             }}
                         >
@@ -67,11 +68,13 @@ const BigBlogPostCard = (props: Props) => {
                         </p>
                         <Button
                             sx={{
+                                border: '1px solid black',
                                 backgroundColor: '#8AC92A',
                                 color: '#ffffff',
                                 ':hover': {
                                     color: 'black',
                                     backgroundColor: '#ffffff',
+                                    border: '1px solid black',
                                 },
                             }}
                         >
@@ -79,7 +82,7 @@ const BigBlogPostCard = (props: Props) => {
                         </Button>
                     </div>
                 </Container>
-            </Typography>
+            </Container>
         </Container>
     )
 }

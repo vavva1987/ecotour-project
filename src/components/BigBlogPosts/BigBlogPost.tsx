@@ -51,6 +51,7 @@ const BigBlogPost = (props: Props) => {
                             ':hover': {
                                 color: 'black',
                                 backgroundColor: '#ffffff',
+                                border: '1px solid black',
                             },
                         }}
                     >

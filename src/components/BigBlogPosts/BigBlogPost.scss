@@ -25,9 +25,21 @@
     height: 401px;
     display: flex;
 
+    @media (max-width: 768px) {
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
     .blog-post-img {
         width: 753px;
         margin-left: -23px;
+        @media (max-width: 768px) {
+            width: 768px;
+            display: flex;
+            justify-content: center;
+        }
         img {
             width: 753px;
             height: 401px;
@@ -78,8 +90,8 @@
 
     .card-1,
     .card-2 {
-        width: 664px;
-        height: 294px;
+        width: 560px;
+        height: 250px;
 
         margin: 0;
         padding: 0;
@@ -88,18 +100,22 @@
         justify-content: center;
     }
 
-    .card-img img {
-        width: 275px;
-        height: 250px;
+    .card-img {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 275px;
+            height: 250px;
+        }
     }
 
     .card-title {
         width: 292px;
-        height: 264px;
+        height: 250px;
         padding: 20px;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
         margin: 0;
     }
 
