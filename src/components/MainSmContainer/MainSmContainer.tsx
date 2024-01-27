@@ -17,7 +17,7 @@ const MainSmContainer = (props: Props) => {
         >
             <Typography sx={{ display: 'block', textAlign: 'center' }}>
                 <ProductListItem />
-                <Grid container>
+                <Grid container spacing={2}>
                     {productsArray.map(({ id, title, description, images }) => (
                         <ProductList
                             id={id}

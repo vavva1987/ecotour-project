@@ -7,7 +7,7 @@ type Props = {}
 const HeaderBackgroundTitle = (props: Props) => {
     return (
         <Container
-            maxWidth="lg"
+            // maxWidth="lg"
             className="header-background-title"
             sx={{
                 display: 'block',
@@ -36,8 +36,7 @@ const HeaderBackgroundTitle = (props: Props) => {
                         ':hover': {
                             color: 'black',
                             backgroundColor: '#ffffff',
-                            border: '1px',
-                            solid: 'black',
+                            border: '1px solid black',
                         },
                     }}
                 >

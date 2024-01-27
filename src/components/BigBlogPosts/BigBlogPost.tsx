@@ -5,7 +5,12 @@ type Props = {}
 
 const BigBlogPost = (props: Props) => {
     return (
-        <Container maxWidth="lg">
+        <Container
+            maxWidth="lg"
+            sx={{
+                marginBottom: '30px',
+            }}
+        >
             <Container
                 className="blog-post-title"
                 maxWidth="md"
@@ -46,6 +51,7 @@ const BigBlogPost = (props: Props) => {
                             ':hover': {
                                 color: 'black',
                                 backgroundColor: '#ffffff',
+                                border: '1px solid black',
                             },
                         }}
                     >
