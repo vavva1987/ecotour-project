@@ -30,7 +30,7 @@ const BigBlogPost = (props: Props) => {
             </Container>
             <Container maxWidth="lg" className="blog-post-content">
                 <Container maxWidth="md" className="blog-post-img">
-                    <img src="../images/img(1).png" alt="" />
+                    <img src="../images/img-1.png" alt="" />
                 </Container>
                 <Container
                     maxWidth="xs"

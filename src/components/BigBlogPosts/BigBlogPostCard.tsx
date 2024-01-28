@@ -1,25 +1,16 @@
-import { Button, Container } from '@mui/material'
+import { Button, Card, CardContent, Container } from '@mui/material'
+import './BigBlogPost.scss'
 
 type Props = {}
 
 const BigBlogPostCard = (props: Props) => {
     return (
-        <Container
-            maxWidth="md"
-            sx={{
-                padding: '20px',
-                margin: '0 auto',
-                display: 'flex',
-                justifyContent: 'center',
-            }}
-        >
-            <Container
-                maxWidth="md"
+        <Container maxWidth="lg">
+            <Card
                 sx={{ display: 'flex', justifyContent: 'center' }}
                 className="big-blog-post-card"
             >
-                <Container
-                    maxWidth="md"
+                <CardContent
                     className="card-1"
                     sx={{ display: 'flex', alignItems: 'center' }}
                 >
@@ -51,8 +42,8 @@ const BigBlogPostCard = (props: Props) => {
                             Read More
                         </Button>
                     </div>
-                </Container>
-                <Container className="card-2">
+                </CardContent>
+                <CardContent className="card-2">
                     <div className="card-img">
                         <img src="../images/men-children.png" alt="" />
                     </div>
@@ -81,8 +72,8 @@ const BigBlogPostCard = (props: Props) => {
                             Read More
                         </Button>
                     </div>
-                </Container>
-            </Container>
+                </CardContent>
+            </Card>
         </Container>
     )
 }
