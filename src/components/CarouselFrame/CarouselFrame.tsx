@@ -18,7 +18,17 @@ const CarouselFrame = (props: Props) => {
     }
 
     return (
-        <Container maxWidth="lg" className="carousel-frame">
+        <Container
+            maxWidth="lg"
+            className="carousel-frame"
+            sx={{
+                backgroundImage: '/public/images/bg-frame-slider.jpg',
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover,',
+                maxWidth: '1000px',
+                height: '200px',
+            }}
+        >
             <div className="carousel-frame-title">
                 <h2>
                     Inspirational <span>quotes</span>
