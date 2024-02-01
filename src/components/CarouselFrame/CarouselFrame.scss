@@ -1,6 +1,6 @@
 .carousel-frame {
     height: 425px;
-    background-color: #f1f1f1;
+    background-color: #8ac92a;
 
     .carousel-frame-title {
         text-align: center;
@@ -15,9 +15,30 @@
             line-height: 140.625%;
             text-transform: uppercase;
             span {
-                color: #8ac92a;
+                color: #ffffff;
             }
         }
+    }
+}
+
+.carousel-frame-slide {
+    img {
+        width: 80px;
+        height: 80px;
+    }
+    .slide-title {
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 140.625%;
+    }
+    .slide-name {
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140.625%;
     }
 }
 

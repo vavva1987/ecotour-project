@@ -19,14 +19,14 @@ const CarouselFrameSlide = ({ id, image, title, name }: Props) => {
                     alignItems: 'center',
                 }}
             >
-                <div className="slise-img">
+                <div className="slide-img">
                     <img src={image} alt={title} />
                 </div>
                 <div>
-                    <p className="slise-title">{title}</p>
+                    <p className="slide-title">{title}</p>
                 </div>
                 <div>
-                    <p className="slise-name">{name}</p>
+                    <p className="slide-name">{name}</p>
                 </div>
             </CardContent>
         </Card>
