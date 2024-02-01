@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './layout/App'
+import { Component } from 'react'
+import Slider from 'react-slick'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
