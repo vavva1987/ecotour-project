@@ -1,1 +1,33 @@
+.second-blog-post {
+    margin: 0;
+    .date {
+        font-family: 'Raleway';
+        font-size: 24px;
+        font-weight: 900;
+        margin: 0;
 
+        .span-1 {
+            color: #8ac92a;
+            font-size: 32px;
+            font-weight: 900;
+        }
+        .span-2 {
+            font-size: 14px;
+            font-weight: 900;
+        }
+    }
+    .second-blog-post-txt {
+        font-family: 'Raleway';
+        font-style: normal;
+        margin-top: 10px;
+        color: #808080;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .second-blog-post-title {
+        font-family: 'Raleway';
+        color: #8ac92a;
+        font-size: 52px;
+        font-weight: 700;
+    }
+}
