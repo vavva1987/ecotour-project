@@ -6,6 +6,7 @@ type Props = {}
 const SecondBlogPostTitle = (props: Props) => {
     return (
         <Container
+            className="second-blog-post"
             sx={{
                 display: 'flex',
                 flexDirection: 'column',
@@ -14,11 +15,11 @@ const SecondBlogPostTitle = (props: Props) => {
         >
             <p className="date">
                 April
-                <span className="span-1">22</span>
-                <span className="span-1">nd</span>
+                <span className="span-1"> 22</span>
+                <span className="span-2">nd</span>
             </p>
-            <h3>Earth Day</h3>
-            <p>
+            <h3 className="second-blog-post-title">Earth Day</h3>
+            <p className="second-blog-post-txt">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
