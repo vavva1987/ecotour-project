@@ -7,7 +7,7 @@ type Props = {}
 
 const SecondBlogPost = (props: Props) => {
     return (
-        <Container maxWidth="lg" sx={{ display: 'flex', marginTop: '64px' }}>
+        <Container maxWidth="lg" sx={{ display: 'flex', margin: '64px 0' }}>
             <SecondBlogPostImg />
             <SecondBlogPostTitle />
         </Container>

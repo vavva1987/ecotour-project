@@ -1,0 +1,71 @@
+.children-education {
+    background-image: url(../../../public/images/children-education.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.children-education-title {
+    h2 {
+        height: 45px;
+        font-family: Raleway;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 140.625%;
+        text-transform: uppercase;
+        span {
+            color: #8ac92a;
+        }
+    }
+    p {
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140.625%;
+    }
+}
+
+.first-education-card-img img {
+    width: 293px;
+    height: 293px;
+}
+
+.first-education-card-title {
+    margin: 0;
+    padding: 0;
+    h4 {
+        font-family: 'Raleway';
+        font-size: 16px;
+        font-weight: 900;
+        margin: 12px 0;
+        padding: 0;
+    }
+}
+
+.first-education-card-type {
+    color: #8ac92a;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.first-education-card-date {
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.first-education-card-description {
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}

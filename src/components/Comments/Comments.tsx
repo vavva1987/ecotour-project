@@ -19,11 +19,19 @@ const Comments = (props: Props) => {
     }
     return (
         <Container maxWidth="lg" sx={{ bgcolor: '#f1f0f0', border: 'none' }}>
-            <div className="comments-title">
+            <Container
+                maxWidth="sm"
+                className="comments-title"
+                sx={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                }}
+            >
                 <h2>
                     Featured <span>comments</span>
                 </h2>
-            </div>
+            </Container>
             <Slider className="coments-slider" {...settings}>
                 <FirstCommentsComponent />
                 <SecondCommentsComponent />
