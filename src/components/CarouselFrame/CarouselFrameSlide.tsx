@@ -25,6 +25,7 @@ const CarouselFrameSlide = ({ id, image, title, name }: Props) => {
                 <div>
                     <p className="slide-title">{title}</p>
                 </div>
+                <div className="border-slide"></div>
                 <div>
                     <p className="slide-name">{name}</p>
                 </div>

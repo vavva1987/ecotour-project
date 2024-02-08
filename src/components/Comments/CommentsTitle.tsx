@@ -11,7 +11,13 @@ type Props = {
 const CommentsTitle = ({ image, title, name }: Props) => {
     return (
         <Card sx={{ margin: '10px' }}>
-            <CardContent>
+            <CardContent
+                sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                }}
+            >
                 <div className="slide-comments-img">
                     <img src={image} alt="" />
                 </div>
