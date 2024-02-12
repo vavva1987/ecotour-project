@@ -1,0 +1,37 @@
+.footer-logo {
+    width: 143px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-logo-title {
+    p {
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140.625%;
+        margin: 10px 0;
+        padding: 0;
+    }
+}
+
+.footer-item {
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140.625%;
+        margin: 10px 0;
+        &:hover {
+            color: #8ac92a;
+        }
+    }
+}
