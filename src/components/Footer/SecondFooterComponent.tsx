@@ -11,7 +11,6 @@ const SecondFooterComponent = (props: Props) => {
             sx={{
                 display: 'flex',
                 justifyContent: 'space-around',
-                margin: '0 30px',
                 padding: '0',
                 height: '240px',
             }}
@@ -25,8 +24,28 @@ const SecondFooterComponent = (props: Props) => {
                     <Link>Contact Us</Link>
                 </div>
             </div>
-            <div>
+            <div className="recent-posts">
                 <h3>Recent Posts</h3>
+                <div className="recent-posts-title">
+                    <div className="recent-posts-card">
+                        <div className="recent-posts-img">
+                            <img src="images/men-children.png" alt="" />
+                        </div>
+                        <div>
+                            <Link>Lorem ipsum dolor sit amet</Link>
+                            <p className="recent-date">August 2, 2023</p>
+                        </div>
+                    </div>
+                    <div className="recent-posts-card">
+                        <div className="recent-posts-img">
+                            <img src="/images/men-children.png" alt="" />
+                        </div>
+                        <div>
+                            <Link>Lorem ipsum dolor sit amet</Link>
+                            <p className="recent-date">August 2, 2023</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </Container>
     )

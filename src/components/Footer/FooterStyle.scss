@@ -64,3 +64,39 @@
         }
     }
 }
+
+.recent-posts {
+    width: 300px;
+    .recent-posts-card {
+        display: flex;
+        .recent-posts-img img {
+            width: 80px;
+            height: 80px;
+            margin-right: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #ffffff;
+            font-family: Raleway;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140.625%;
+            &:hover {
+                color: #8ac92a;
+            }
+        }
+        .recent-date {
+            text-decoration: none;
+            color: #808080;
+            font-family: Raleway;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140.625%;
+        }
+    }
+}
