@@ -1,6 +1,8 @@
 import { Container } from '@mui/material'
 import '../components/Footer/FooterStyle.scss'
 import FirstFooterComponent from 'components/Footer/FirstFooterComponent'
+import SecondFooterComponent from 'components/Footer/SecondFooterComponent'
+import ThirdFooterComponent from 'components/Footer/ThirdFooterComponent'
 
 type Props = {}
 
@@ -18,6 +20,8 @@ const Footer = (props: Props) => {
             }}
         >
             <FirstFooterComponent />
+            <SecondFooterComponent />
+            <ThirdFooterComponent />
         </Container>
     )
 }
