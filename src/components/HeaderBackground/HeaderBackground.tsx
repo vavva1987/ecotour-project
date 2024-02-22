@@ -6,11 +6,11 @@ type Props = {}
 
 const HeaderBackground = (props: Props) => {
     return (
-        <div className="header-background">
-            <Container maxWidth="xl" className="header-background-img">
+        <Container maxWidth="xl" className="header-background">
+            <Container className="header-background-img">
                 <HeaderBackgroundTitle />
             </Container>
-        </div>
+        </Container>
     )
 }
 
