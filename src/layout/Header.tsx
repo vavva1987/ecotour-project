@@ -1,15 +1,14 @@
 import HeaderBackground from 'components/HeaderBackground/HeaderBackground'
-import ResponsiveAppBar from '../components/appbar/AppBar'
 import './Header.scss'
+import { Container } from '@mui/material'
 
 type Props = {}
 
 const Header = (props: Props) => {
     return (
-        <>
-            <ResponsiveAppBar />
+        <Container maxWidth="lg">
             <HeaderBackground />
-        </>
+        </Container>
     )
 }
 

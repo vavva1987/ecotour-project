@@ -14,8 +14,22 @@ import MenuItem from '@mui/material/MenuItem'
 import AdbIcon from '@mui/icons-material/Adb'
 import Logo from '../logo/Logo'
 import '../../layout/Header.scss'
+import { NavLink } from 'react-router-dom'
 
-const pages = ['Home', 'Blog', 'About', 'Contact']
+const pages = [
+    <NavLink to="/" className="menu-item">
+        Home
+    </NavLink>,
+    <NavLink to="blog" className="menu-item">
+        Blog
+    </NavLink>,
+    <NavLink to="about" className="menu-item">
+        About
+    </NavLink>,
+    <NavLink to="contact" className="menu-item">
+        Contact
+    </NavLink>,
+]
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout']
 
 function ResponsiveAppBar() {
@@ -43,7 +57,7 @@ function ResponsiveAppBar() {
 
     return (
         <AppBar position="static" className="header">
-            <Container maxWidth="lg">
+            <Container maxWidth="md">
                 <Toolbar disableGutters>
                     <Logo />
                     <Box
@@ -80,11 +94,8 @@ function ResponsiveAppBar() {
                                 display: { xs: 'block', md: 'none' },
                             }}
                         >
-                            {pages.map((page) => (
-                                <MenuItem
-                                    key={page}
-                                    onClick={handleCloseNavMenu}
-                                >
+                            {pages.map((page, i) => (
+                                <MenuItem key={i} onClick={handleCloseNavMenu}>
                                     <Typography textAlign="center">
                                         {page}
                                     </Typography>
@@ -124,9 +135,9 @@ function ResponsiveAppBar() {
                             },
                         }}
                     >
-                        {pages.map((page) => (
+                        {pages.map((page, i) => (
                             <Button
-                                key={page}
+                                key={i}
                                 onClick={handleCloseNavMenu}
                                 sx={{
                                     my: 2,
@@ -136,6 +147,10 @@ function ResponsiveAppBar() {
                                     fontWeight: '700',
                                     ':hover': {
                                         backgroundColor: '#8ac92a',
+                                        color: '#ffffff',
+                                    },
+                                    ':active': {
+                                        bgcolor: '#8ac92a',
                                         color: '#ffffff',
                                     },
                                 }}
