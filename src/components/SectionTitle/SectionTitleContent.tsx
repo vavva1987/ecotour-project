@@ -18,7 +18,7 @@ const SectionTitleContent = ({
     images,
 }: Props) => {
     return (
-        <Card key={id}>
+        <Card key={id} sx={{ paddingTop: '15px' }}>
             <CardContent
                 className="section-title-content"
                 sx={{ variant: 'outlined' }}
@@ -36,6 +36,7 @@ const SectionTitleContent = ({
                 <Button
                     variant="outlined"
                     sx={{
+                        marginBottom: '15px',
                         color: 'black',
                         border: '1px solid black',
                         ':hover': {

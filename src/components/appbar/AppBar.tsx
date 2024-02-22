@@ -56,7 +56,7 @@ function ResponsiveAppBar() {
     }
 
     return (
-        <AppBar position="static" className="header">
+        <AppBar position="fixed" className="header">
             <Container maxWidth="md">
                 <Toolbar disableGutters>
                     <Logo />
