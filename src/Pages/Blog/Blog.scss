@@ -1,5 +1,4 @@
 .blog {
-    height: 100%;
     .blog-title {
         background-image: linear-gradient(
                 rgba(255, 255, 255, 0.7),
@@ -7,7 +6,6 @@
             ),
             url(../../assets/background-img.jpg);
         background-repeat: no-repeat;
-        height: 185px;
         margin-bottom: 15px;
     }
 
@@ -21,7 +19,7 @@
     }
 
     .blog-content {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         img {
             width: 350px;
             height: 350px;
