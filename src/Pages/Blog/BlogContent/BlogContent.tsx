@@ -6,7 +6,7 @@ const BlogContent = (props: Props) => {
     return (
         <Grid
             container
-            maxWidth="md"
+            maxWidth="xs"
             rowSpacing={1}
             columnSpacing={3}
             sx={{
