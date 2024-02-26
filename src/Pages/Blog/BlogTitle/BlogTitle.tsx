@@ -6,9 +6,11 @@ const BlogTitle = (props: Props) => {
         <Container
             className="blog-title"
             sx={{
+                height: '200px',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
+                marginTop: '70px',
             }}
         >
             <div className="blog-title-component">

@@ -6,7 +6,7 @@ const BlogContent = (props: Props) => {
     return (
         <Grid
             container
-            maxWidth="md"
+            maxWidth="xs"
             rowSpacing={1}
             columnSpacing={3}
             sx={{
@@ -34,7 +34,25 @@ const BlogContent = (props: Props) => {
                         dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore{' '}
                     </p>
-                    <Button variant="outlined" sx={{ marginTop: '15px' }}>
+                    <Button
+                        variant="outlined"
+                        sx={{
+                            marginTop: '15px',
+                            width: '139px',
+                            height: '44px',
+                            color: 'black',
+                            border: '1px solid black',
+                            ':hover': {
+                                color: '#ffffff',
+                                backgroundColor: '#8ac92a',
+                                border: '1px solid black',
+                            },
+                            fontFamily: 'Raleway',
+                            fontSize: '14px',
+                            fontWeight: '700',
+                            fontStyle: 'normal',
+                        }}
+                    >
                         Read more
                     </Button>
                 </div>
@@ -53,7 +71,27 @@ const BlogContent = (props: Props) => {
                         dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore{' '}
                     </p>
-                    <Button variant="outlined">Read more</Button>
+                    <Button
+                        variant="outlined"
+                        sx={{
+                            marginTop: '15px',
+                            width: '139px',
+                            height: '44px',
+                            color: 'black',
+                            border: '1px solid black',
+                            ':hover': {
+                                color: '#ffffff',
+                                backgroundColor: '#8ac92a',
+                                border: '1px solid black',
+                            },
+                            fontFamily: 'Raleway',
+                            fontSize: '14px',
+                            fontWeight: '700',
+                            fontStyle: 'normal',
+                        }}
+                    >
+                        Read more
+                    </Button>
                 </div>
             </Grid>
 
@@ -71,7 +109,27 @@ const BlogContent = (props: Props) => {
                         dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore{' '}
                     </p>
-                    <Button variant="outlined">Read more</Button>
+                    <Button
+                        variant="outlined"
+                        sx={{
+                            marginTop: '15px',
+                            width: '139px',
+                            height: '44px',
+                            color: 'black',
+                            border: '1px solid black',
+                            ':hover': {
+                                color: '#ffffff',
+                                backgroundColor: '#8ac92a',
+                                border: '1px solid black',
+                            },
+                            fontFamily: 'Raleway',
+                            fontSize: '14px',
+                            fontWeight: '700',
+                            fontStyle: 'normal',
+                        }}
+                    >
+                        Read more
+                    </Button>
                 </div>
             </Grid>
             <Grid item xs={5} className="blog-content">
@@ -88,7 +146,27 @@ const BlogContent = (props: Props) => {
                         dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore{' '}
                     </p>
-                    <Button variant="outlined">Read more</Button>
+                    <Button
+                        variant="outlined"
+                        sx={{
+                            marginTop: '15px',
+                            width: '139px',
+                            height: '44px',
+                            color: 'black',
+                            border: '1px solid black',
+                            ':hover': {
+                                color: '#ffffff',
+                                backgroundColor: '#8ac92a',
+                                border: '1px solid black',
+                            },
+                            fontFamily: 'Raleway',
+                            fontSize: '14px',
+                            fontWeight: '700',
+                            fontStyle: 'normal',
+                        }}
+                    >
+                        Read more
+                    </Button>
                 </div>
             </Grid>
 
@@ -106,7 +184,27 @@ const BlogContent = (props: Props) => {
                         dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore{' '}
                     </p>
-                    <Button variant="outlined">Read more</Button>
+                    <Button
+                        variant="outlined"
+                        sx={{
+                            marginTop: '15px',
+                            width: '139px',
+                            height: '44px',
+                            color: 'black',
+                            border: '1px solid black',
+                            ':hover': {
+                                color: '#ffffff',
+                                backgroundColor: '#8ac92a',
+                                border: '1px solid black',
+                            },
+                            fontFamily: 'Raleway',
+                            fontSize: '14px',
+                            fontWeight: '700',
+                            fontStyle: 'normal',
+                        }}
+                    >
+                        Read more
+                    </Button>
                 </div>
             </Grid>
             <Grid item xs={5} className="blog-content">
@@ -123,7 +221,27 @@ const BlogContent = (props: Props) => {
                         dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore{' '}
                     </p>
-                    <Button variant="outlined">Read more</Button>
+                    <Button
+                        variant="outlined"
+                        sx={{
+                            marginTop: '15px',
+                            width: '139px',
+                            height: '44px',
+                            color: 'black',
+                            border: '1px solid black',
+                            ':hover': {
+                                color: '#ffffff',
+                                backgroundColor: '#8ac92a',
+                                border: '1px solid black',
+                            },
+                            fontFamily: 'Raleway',
+                            fontSize: '14px',
+                            fontWeight: '700',
+                            fontStyle: 'normal',
+                        }}
+                    >
+                        Read more
+                    </Button>
                 </div>
             </Grid>
         </Grid>

@@ -12,7 +12,11 @@ const Blog = (props: Props) => {
             <BlogTitle />
             <Container
                 maxWidth="lg"
-                sx={{ display: 'flex', justifyContent: 'space-between' }}
+                sx={{
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    marginTop: '50px',
+                }}
             >
                 <BlogContent />
                 <BlogSidebar />
