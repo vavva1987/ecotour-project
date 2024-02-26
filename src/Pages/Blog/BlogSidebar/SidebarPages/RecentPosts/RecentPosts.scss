@@ -1,0 +1,43 @@
+.sidebar-recent {
+    a {
+        text-decoration: none;
+        color: #000000;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140.625%;
+        &:hover {
+            color: #8ac92a;
+        }
+    }
+
+    .sidebar-recent-title {
+        h3 {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 140.625%;
+            text-transform: uppercase;
+        }
+    }
+    .sidebar-recent-card {
+        display: flex;
+        align-items: center;
+    }
+    .sidebar-recent-img img {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .sidebar-recent-date {
+        color: #808080;
+        font-family: Raleway;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140.625%;
+    }
+}

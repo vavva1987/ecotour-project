@@ -1,12 +1,17 @@
 import { Container, IconButton, InputBase, Paper } from '@mui/material'
 import SearchIcon from '@mui/icons-material/Search'
 import Categories from './SidebarPages/Categories/Categories'
+import RecentPosts from './SidebarPages/RecentPosts/RecentPosts'
 
 type Props = {}
 
 const BlogSidebar = (props: Props) => {
     return (
-        <Container className="blog-sidebar" sx={{ margin: '0', padding: '0' }}>
+        <Container
+            maxWidth="xs"
+            className="blog-sidebar"
+            sx={{ margin: '0', padding: '0', width: '250px' }}
+        >
             <Paper
                 component="form"
                 sx={{
@@ -37,6 +42,7 @@ const BlogSidebar = (props: Props) => {
                 </IconButton>
             </Paper>
             <Categories disableGutters />
+            <RecentPosts />
         </Container>
     )
 }
