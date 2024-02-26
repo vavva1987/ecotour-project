@@ -1,0 +1,19 @@
+.keywords {
+    .keywords-btn {
+        padding-bottom: 5px;
+        button {
+            margin-left: 5px;
+            color: #999;
+            font-family: Raleway;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140.625%;
+            border: 1px solid #999;
+            &:hover {
+                background-color: #8ac92a;
+                color: #ffffff;
+            }
+        }
+    }
+}

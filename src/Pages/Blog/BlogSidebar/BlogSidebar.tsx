@@ -2,6 +2,7 @@ import { Container, IconButton, InputBase, Paper } from '@mui/material'
 import SearchIcon from '@mui/icons-material/Search'
 import Categories from './SidebarPages/Categories/Categories'
 import RecentPosts from './SidebarPages/RecentPosts/RecentPosts'
+import Keywords from './SidebarPages/Keywords/Keywords'
 
 type Props = {}
 
@@ -43,6 +44,7 @@ const BlogSidebar = (props: Props) => {
             </Paper>
             <Categories disableGutters />
             <RecentPosts />
+            <Keywords />
         </Container>
     )
 }
