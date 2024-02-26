@@ -1,0 +1,17 @@
+.about-us-bg {
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.7),
+            rgba(31, 30, 30, 0.8)
+        ),
+        url(../../assets/background-img.jpg);
+    background-repeat: no-repeat;
+
+    .about-us-bg-title {
+        h2 {
+            color: #ffffff;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+        }
+    }
+}
