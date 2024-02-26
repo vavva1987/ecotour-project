@@ -1,0 +1,24 @@
+.categories {
+    .categories-title {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 140.625%;
+        text-transform: uppercase;
+    }
+    .categories-item {
+        a {
+            text-decoration: none;
+            margin: 10px 0;
+            color: #808080;
+            font-family: Raleway;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140.625%;
+            &:hover {
+                color: #8ac92a;
+            }
+        }
+    }
+}
