@@ -13,3 +13,42 @@
         font-weight: 700;
     }
 }
+
+.contact-content {
+    font-family: Raleway;
+    width: 285px;
+    .contact-content-title {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140.625%;
+    }
+    .email-us {
+        h4 {
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140.625%;
+            color: #8ac92a;
+        }
+    }
+    .social-us {
+        margin-top: 40px;
+        h4 {
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
