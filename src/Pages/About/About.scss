@@ -50,3 +50,25 @@
         padding: 0;
     }
 }
+
+.about-us-content {
+    font-family: Raleway;
+    font-style: normal;
+
+    .about-us-content-title {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        span {
+            color: #8ac92a;
+        }
+    }
+
+    .about-us-content-txt {
+        color: #808080;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140.625%;
+    }
+}
