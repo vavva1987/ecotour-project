@@ -1,0 +1,52 @@
+.about-us-bg {
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.7),
+            rgba(31, 30, 30, 0.8)
+        ),
+        url(../../assets/background-img.jpg);
+    background-repeat: no-repeat;
+
+    .about-us-bg-title {
+        h2 {
+            color: #ffffff;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+        }
+    }
+}
+
+.about-us-title {
+    .about-us-title-img img {
+        width: 545px;
+        height: 345px;
+    }
+
+    h1 {
+        font-family: Raleway;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        span {
+            color: #8ac92a;
+        }
+        margin: 0;
+        padding: 0;
+    }
+    .about-us-title-content {
+        :first-child {
+            margin-bottom: 50px;
+        }
+        :nth-child(3) {
+            margin-top: -10px;
+        }
+        color: #808080;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140.625%;
+        margin: 0;
+        padding: 0;
+    }
+}
