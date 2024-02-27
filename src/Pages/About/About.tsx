@@ -8,7 +8,7 @@ type Props = {}
 
 const About = (props: Props) => {
     return (
-        <Container sx={{ marginTop: '50px' }}>
+        <Container sx={{ marginTop: '70px' }}>
             <AboutUsBgImg />
             <AboutUsTitle />
             <AboutUsContent />
