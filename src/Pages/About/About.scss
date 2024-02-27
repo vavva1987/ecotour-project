@@ -15,3 +15,38 @@
         }
     }
 }
+
+.about-us-title {
+    .about-us-title-img img {
+        width: 545px;
+        height: 345px;
+    }
+
+    h1 {
+        font-family: Raleway;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        span {
+            color: #8ac92a;
+        }
+        margin: 0;
+        padding: 0;
+    }
+    .about-us-title-content {
+        :first-child {
+            margin-bottom: 50px;
+        }
+        :nth-child(3) {
+            margin-top: -10px;
+        }
+        color: #808080;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140.625%;
+        margin: 0;
+        padding: 0;
+    }
+}
